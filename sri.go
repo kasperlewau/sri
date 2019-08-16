@@ -1,4 +1,4 @@
-// package sri provides the means to compute sub-resource-integrity sha sums for a list of files
+// Package sri provides the means to compute sub-resource-integrity sha sums for a list of files
 package sri
 
 import (
