@@ -1,5 +1,5 @@
 // Package sri provides the means to compute sub-resource-integrity sha sums for a list of files
-package sri
+package sri // import github.com/kasperlewau/sri
 
 import (
 	"bufio"
