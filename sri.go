@@ -29,6 +29,7 @@ func (r *Resource) Reset() {
 	r.Sha512.Reset()
 }
 
+// MarshalJSON encodes the Resource into JSON, hex encoding the SHAsums
 func (r *Resource) MarshalJSON() ([]byte, error) {
 	return json.Marshal(&struct {
 		Path   string `json:"path"`
